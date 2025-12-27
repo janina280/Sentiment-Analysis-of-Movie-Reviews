@@ -79,21 +79,36 @@ The models were evaluated using:
 
 ## 🧪 Observations
 Simple RNN performs poorly due to the vanishing gradient problem.
+
 LSTM and GRU achieve the best balance between performance and complexity.
+
 GRU slightly outperforms LSTM while being computationally more efficient.
+
 Bidirectional LSTM tends to overfit without additional regularization.
+
 Early stopping significantly improves model generalization.
+
+---
+
 
 ##🚀 Future Improvements
 Use pre-trained word embeddings (GloVe, Word2Vec)
+
 Experiment with Transformer-based models (e.g., BERT)
+
 Apply text data augmentation techniques
+
 Perform cross-validation for more robust evaluation
+
+---
 
 ## 🛠 Technologies Used
 Python
+
 TensorFlow 
+
 Scikit-learn
+
 Pandas, NumPy
 
 ## 🔮 Sample Predictions
